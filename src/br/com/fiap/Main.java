@@ -7,7 +7,7 @@ import br.com.fiap.ex04.TipoCliente;
 public class Main {
 	public static void main(String[] args) {
 		ContaBancaria especial = new ContaEspecial(0d,"TESTE","RUA","37091036816");
-		especial.deposita(10d);
+		especial.deposita(500010d);
 		System.out.println(especial.getSaldo());
 		especial.saque(2d);
 		System.out.println(especial.getSaldo());
