@@ -1,4 +1,4 @@
-package br.com.fiap.lesson02;
+package br.com.fiap.ex01;
 
 public class Funcionario extends Pessoa {
 	private Double salario;
